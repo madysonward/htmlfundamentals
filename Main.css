@@ -33,7 +33,7 @@ section {
 	padding: 30px;
 	text-align: left;
 }
-.in-div {
+.in-div p{
 	display: inline-block;
 	text-align: left;
 	padding: 50px
