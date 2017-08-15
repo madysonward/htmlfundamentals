@@ -1,7 +1,6 @@
 /*p {
 	color: red;
-}*/
-.div-1 {
+}.div-1 {
 	background-color: lightblue; 
 	padding: 20px;
 	align
@@ -9,7 +8,40 @@
 /*
 To style the paragraphs sections for the entire page, you'd style the paragraphs on their own. But to style
 the paragraghs for the div sections specifically, you'd code as below:;
-*/
+
 .div-1 p{
 	color: darkgreen;
+}*/
+
+header { 
+	border-bottom: 3px solid #000;
+}
+header > h1 { 
+	display: inline-block; 
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+header span { 
+	margin-left: 100px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+section {
+	border-style: double;
+	text-align: center;
+}
+.out-div {
+	padding: 30px;
+	text-align: left;
+}
+.in-div {
+	display: inline-block;
+	text-align: left;
+	padding: 50px
+}
+/*header > img {
+	display: inline-block;*/
+}
+header p {
+	margin-left: 100px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
 }
