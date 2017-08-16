@@ -38,7 +38,7 @@ section {
 }
 .in-div p{
 	display: inline-block;
-	text-align: left;
+	float: left;
 	padding: 50px
 }
 /*header > img {
